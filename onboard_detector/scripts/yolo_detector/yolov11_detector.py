@@ -17,7 +17,7 @@ target_classes = ["person"]
 
 
 path_curr = os.path.dirname(__file__)
-img_topic = "/camera/color/image_raw"
+img_topic = "/rsD455_node0/color/image_raw"
 device = "cuda" if torch.cuda.is_available() else "cpu"
 weight = "weights/yolo11n.pt"
 class_names = "config/coco.names"
